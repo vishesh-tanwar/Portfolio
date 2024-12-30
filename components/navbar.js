@@ -82,12 +82,8 @@ const Navbar = () => {
           rel="noopener noreferrer"
           className="text-white hover:text-blue-500 transition-colors duration-300 mt-1"
         >
-          <Image
-            src="/Leetcode_Logo.png"
-            alt="Leetcode"
-            width={25}
-            height={25}
-          />
+          <img src="/LeetCode_Logo.png" alt="Example" style={{ width: '25px', height: '25px' }} />
+
         </a>
       </div>
     </nav>
