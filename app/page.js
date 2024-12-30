@@ -5,9 +5,9 @@ export default function Home() {
     <div>
       <div
         id="home"
-        className="home flex flex-col items-center justify-center text-center min-h-screen px-4 pt-20 space-y-8 md:flex-row md:justify-evenly md:text-left"
+        className="home flex flex-col items-center justify-center text-center min-h-screen px-4 pt-20 space-y-8 md:flex-row md:justify-evenly md:text-left mt-16 sm:mt-28 md:mt-0"
       >
-        <div className="w-full max-w-2xl md:pr-8">
+        <div className="-mt-7 w-full max-w-2xl md:pr-7 ">
           <div className="text-3xl md:text-5xl text-white">
             Hello World,
             <div className="font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
@@ -22,9 +22,18 @@ export default function Home() {
             journey to see how I can contribute to innovative solutions in the
             tech world.
           </div>
+          <div className="mt-6">
+            <a
+              href="/Vishesh Tanwar 2025 CV.pdf"  
+              download="Vishesh_Tanwar_CV" 
+              className="px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold rounded-lg shadow-lg hover:opacity-90 transition-all duration-300"
+            >
+              Download CV 
+            </a>
+          </div>
         </div>
 
-        <div className="w-3/4 max-w-sm md:w-full md:max-w-md">
+        <div className="-mt-7 w-3/4 max-w-sm md:w-full md:max-w-md">
           <Image
             src="/image.png"
             alt="Description of the image"
@@ -146,7 +155,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-black bg-opacity-80 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center text-center p-6 rounded-lg">
                 <div>
                   <h2 className="text-lg sm:text-xl font-semibold mb-4">
-                    Campus Voice Hub
+                    Campus Voice Hub 
                   </h2>
                   <p className="text-sm sm:text-lg mb-4">
                     The web application is designed to facilitate efficient
@@ -166,7 +175,7 @@ export default function Home() {
             </div>
             <div className="p-6">
               <h2 className="text-center text-xl sm:text-2xl font-semibold text-gray-800">
-                Campus Voice Hub
+                Campus Voice Hub - MERN tech
               </h2>
             </div>
           </div>
@@ -201,7 +210,7 @@ export default function Home() {
             </div>
             <div className="p-6">
               <h2 className="text-center text-xl sm:text-2xl font-semibold text-gray-800">
-                Reels Rover
+                Reels Rover - MERN tech
               </h2>
             </div>
           </div>
