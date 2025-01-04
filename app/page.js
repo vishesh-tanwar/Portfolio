@@ -200,7 +200,7 @@ export default function Home() {
                     Integrated secure payment processing powered by Stripe.
                   </p>
                   <a
-                    href="https://github.com/vishesh-tanwar/Reel-Rover"
+                    href="https://github.com/vishesh-tanwar/reel-rover-project"
                     className="text-blue-500 hover:underline font-extrabold"
                   >
                     View Project
