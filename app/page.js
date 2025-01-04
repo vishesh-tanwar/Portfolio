@@ -24,7 +24,7 @@ export default function Home() {
           </div>
           <div className="mt-6">
             <a
-              href="/Vishesh Tanwar 2025 CV.pdf"  
+              href="/Vishesh Tanwar 2025 CV1.pdf"  
               download="Vishesh_Tanwar_CV" 
               className="px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold rounded-lg shadow-lg hover:opacity-90 transition-all duration-300"
             >
