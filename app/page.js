@@ -61,35 +61,14 @@ export default function Home() {
             </p>
             <ul className="list-disc list-inside mt-4 space-y-2 text-lg md:text-xl">
               <li>
-                Worked on two mobile application projects, <b>Sachiv</b> and{" "}
-                <b>CRM</b>, as part of the Flutter development team.
+                Contributed to building trading platform features using
+                React/Next.js (or Flutter).
               </li>
-              <li>
-                Followed <b>MVVM architecture</b> for clean code management and
-                efficient data handling.
-              </li>
-              <li>
-                Created reusable <b>Flutter widgets</b> to optimize performance
-                and maintainability.
-              </li>
+              <li>Integrated APIs & authentication for real-time data.</li>
+              <li>Enhanced UI/UX with reusable and responsive components.</li>
               <li>
                 Implemented state management using{" "}
                 <b>Riverpod, Provider, and ChangeNotifier</b>.
-              </li>
-              <li>
-                Wrote optimized <b>SQL queries</b>, enhancing data retrieval
-                speed and reducing query execution time by <b>40%</b>.
-              </li>
-              <li>
-                Optimized <b>UI/UX</b>, improving user retention by <b>30%</b>.
-              </li>
-              <li>
-                Integrated <b>Google Authentication via Firebase</b> in the CRM
-                app, improving login success rate by <b>35%</b>.
-              </li>
-              <li>
-                Designed a <b>local database system using Sqflite</b> to enable
-                offline functionality in the Sachiv app.
               </li>
             </ul>
           </div>
@@ -202,6 +181,47 @@ export default function Home() {
           My Projects
         </h1>
         <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
+          {/* Streamix Card */}
+          <div className="max-w-sm w-full bg-white shadow-lg rounded-lg overflow-hidden cursor-pointer group">
+            {/* Image always at the top */}
+            <div className="relative">
+              <img
+                src="/imagecopy.png"
+                alt="Campus Voice Hub"
+                className="w-full h-56 sm:h-64 object-cover"
+              />
+
+              {/* Hover overlay */}
+              <div className="absolute inset-0 bg-black bg-opacity-80 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center text-center p-6">
+                <div>
+                  <h2 className="text-lg sm:text-xl font-semibold mb-4">
+                    Streamix
+                  </h2>
+                  <p className="text-sm sm:text-lg mb-4">
+                    Streamix is a video surfing app inspired by YouTube where
+                    users can explore, upload, and watch videos or short reels.
+                    The app is built with Flutter for mobile development and
+                    Next.js for the backend. Authentication is handled via
+                    Firebase Google Auth.
+                  </p>
+                  <a
+                    href="https://github.com/vishesh-tanwar/streamix-frontend"
+                    className="text-blue-600 hover:underline font-extrabold"
+                  >
+                    Github
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Bottom text section */}
+            <div className="p-6">
+              <h2 className="text-center text-xl sm:text-2xl font-semibold text-gray-800">
+                Streamix - Flutter & Next.js tech
+              </h2>
+            </div>
+          </div>
+
           {/* Campus Voice Hub Card */}
           <div className="max-w-sm w-full bg-white shadow-lg rounded-lg relative group cursor-pointer">
             <div className="relative">
@@ -261,7 +281,7 @@ export default function Home() {
                     href="https://github.com/vishesh-tanwar/reel-rover-project"
                     className="text-blue-500 hover:underline font-extrabold"
                   >
-                    View Project
+                    Github
                   </a>
                 </div>
               </div>
