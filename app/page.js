@@ -14,28 +14,27 @@ export default function Home() {
               Myself Vishesh Tanwar & Welcome to my portfolio
             </div>
           </div>
-          <div className="mt-4 text-lg md:text-xl text-white">
-            I am an MCA student at BVICAM with a strong foundation in software
-            development, specializing in the MERN stack. My expertise includes
-            Python, JavaScript, and SQL, which I leverage to create impactful
-            web applications. Explore my projects, skills, and educational
-            journey to see how I can contribute to innovative solutions in the
-            tech world.
+          <div className="mt-5 text-lg md:text-xl text-white">
+            Software Development Engineer experienced in building scalable
+            mobile and web applications using Flutter and Next.js. Skilled in
+            REST APIs, PostgreSQL (SQL), and Firebase authentication, with a
+            focus on performance optimization, state management, and delivering
+            user-friendly solutions.
           </div>
           <div className="mt-6">
             <a
-              href="/Vishesh Tanwar 2025 CV1.pdf"  
-              download="Vishesh_Tanwar_CV" 
+              href="/Resume.pdf"
+              download="Vishesh_Tanwar_CV"
               className="px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold rounded-lg shadow-lg hover:opacity-90 transition-all duration-300"
             >
-              Download CV 
+              Download CV
             </a>
           </div>
         </div>
 
         <div className="-mt-7 w-3/4 max-w-sm md:w-full md:max-w-md">
           <Image
-            src="/image.png"
+            src="/image2.png"
             alt="Description of the image"
             width={200}
             height={200}
@@ -43,6 +42,59 @@ export default function Home() {
           />
         </div>
       </div>
+
+      {/* Experience Section */}
+      <section
+        id="experience"
+        className="flex flex-col items-center justify-center min-h-screen text-white pt-16"
+      >
+        <h1 className="text-3xl md:text-4xl lg:text-5xl text-center mb-8 font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+          Experience
+        </h1>
+        <div className="max-w-4xl space-y-8 text-left">
+          <div className="border-l-4 border-blue-500 pl-4 md:pl-6">
+            <h2 className="text-2xl md:text-3xl font-semibold">
+              ALGOFAST INDIA PVT LTD | Software Development Engineer
+            </h2>
+            <p className="text-gray-400 text-sm md:text-base">
+              January 2025 – Present
+            </p>
+            <ul className="list-disc list-inside mt-4 space-y-2 text-lg md:text-xl">
+              <li>
+                Worked on two mobile application projects, <b>Sachiv</b> and{" "}
+                <b>CRM</b>, as part of the Flutter development team.
+              </li>
+              <li>
+                Followed <b>MVVM architecture</b> for clean code management and
+                efficient data handling.
+              </li>
+              <li>
+                Created reusable <b>Flutter widgets</b> to optimize performance
+                and maintainability.
+              </li>
+              <li>
+                Implemented state management using{" "}
+                <b>Riverpod, Provider, and ChangeNotifier</b>.
+              </li>
+              <li>
+                Wrote optimized <b>SQL queries</b>, enhancing data retrieval
+                speed and reducing query execution time by <b>40%</b>.
+              </li>
+              <li>
+                Optimized <b>UI/UX</b>, improving user retention by <b>30%</b>.
+              </li>
+              <li>
+                Integrated <b>Google Authentication via Firebase</b> in the CRM
+                app, improving login success rate by <b>35%</b>.
+              </li>
+              <li>
+                Designed a <b>local database system using Sqflite</b> to enable
+                offline functionality in the Sachiv app.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
       {/* Education Section */}
       <section
@@ -60,6 +112,9 @@ export default function Home() {
             <p className="text-lg md:text-xl font-light">
               Bharati VidyaPeeth Institute of Computer Applications and
               Management
+            </p>
+            <p className="text-gray-400 text-sm md:text-base lg:text-lg">
+              Percentage: 93.1%
             </p>
             <p className="text-gray-400 text-sm md:text-base lg:text-lg">
               Duration: 2023 - 2025
@@ -128,6 +183,9 @@ export default function Home() {
             "Java",
             "Data Structures & Algorithms",
             "Git",
+            "Dart",
+            "Flutter",
+            "MVVM Architecture",
           ].map((skill, index) => (
             <div
               key={index}
@@ -155,7 +213,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-black bg-opacity-80 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center text-center p-6 rounded-lg">
                 <div>
                   <h2 className="text-lg sm:text-xl font-semibold mb-4">
-                    Campus Voice Hub 
+                    Campus Voice Hub
                   </h2>
                   <p className="text-sm sm:text-lg mb-4">
                     The web application is designed to facilitate efficient

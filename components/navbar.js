@@ -32,6 +32,12 @@ const Navbar = () => {
             Home
           </a>
           <a
+            href="#experience"
+            className="block py-2 md:inline hover:text-blue-500 transition-colors duration-300"
+          >
+            Experience
+          </a>
+          <a
             href="#education"
             className="block py-2 md:inline hover:text-blue-500 transition-colors duration-300"
           >
@@ -82,8 +88,11 @@ const Navbar = () => {
           rel="noopener noreferrer"
           className="text-white hover:text-blue-500 transition-colors duration-300 mt-1"
         >
-          <img src="/LeetCode_Logo.png" alt="Example" style={{ width: '25px', height: '25px' }} />
-
+          <img
+            src="/LeetCode_Logo.png"
+            alt="Example"
+            style={{ width: "25px", height: "25px" }}
+          />
         </a>
       </div>
     </nav>
