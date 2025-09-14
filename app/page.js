@@ -46,7 +46,7 @@ export default function Home() {
       {/* Experience Section */}
       <section
         id="experience"
-        className="flex flex-col items-center justify-center min-h-screen text-white pt-16"
+        className="flex flex-col items-center justify-center text-white pt-6"
       >
         <h1 className="text-3xl md:text-4xl lg:text-5xl text-center mb-8 font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
           Experience
@@ -62,9 +62,11 @@ export default function Home() {
             <ul className="list-disc list-inside mt-4 space-y-2 text-lg md:text-xl">
               <li>
                 Contributed to building trading platform features using
-                React/Next.js (or Flutter).
+                React/Next.js for web applications and Flutter for mobile
+                application.
               </li>
               <li>Integrated APIs & authentication for real-time data.</li>
+              <li>Wrote Optimised and clean Sql queries.</li>
               <li>Enhanced UI/UX with reusable and responsive components.</li>
               <li>
                 Implemented state management using{" "}
@@ -78,7 +80,7 @@ export default function Home() {
       {/* Education Section */}
       <section
         id="education"
-        className="flex flex-col items-center justify-center min-h-screen text-white pt-16"
+        className="flex flex-col items-center justify-center text-white pt-20"
       >
         <h1 className="text-3xl md:text-4xl lg:text-5xl text-center mb-8 font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
           My Education Journey
@@ -144,7 +146,7 @@ export default function Home() {
 
       <section
         id="skills"
-        className="skills-section relative min-h-screen flex flex-col items-center justify-center text-white"
+        className="skills-section flex flex-col items-center justify-center text-white pt-24"
       >
         <h1 className="text-5xl font-bold mb-12 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
           My Skills

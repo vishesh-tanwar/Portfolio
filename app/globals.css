@@ -7,9 +7,9 @@ html {
   scroll-behavior: smooth;
 }
 
-section {
-  margin-top: 60px; /* Prevent overlap with fixed navbar */
-}
+/* section {
+  margin-top: 60px;
+} */
 
 body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

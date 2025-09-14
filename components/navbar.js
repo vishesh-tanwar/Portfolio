@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="mt-6 fixed top-0 left-0 w-full bg-black text-white py-2 px-4 z-50 flex justify-between items-center max-w-screen-2xl mx-auto">
+    <nav className=" fixed top-0 left-0 w-full bg-black text-white py-2 px-4 z-50 flex justify-between items-center max-w-screen-2xl mx-auto">
       <div className="text-2xl flex items-center ml-3">
         <button
           className="md:hidden text-white hover:text-blue-500 transition-colors duration-300"
